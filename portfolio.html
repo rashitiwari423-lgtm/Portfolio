@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, #0a0a0a, #1a1a40, #000);
+            color: white;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-content: space-around;
+            margin-top: 40px;
+
+        }
+
+        span {
+            align-items: space-around;
+            padding-right: 10px;
+            ;
+            padding-left: 13px;
+
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        header {
+            margin-top: 10px;
+            position: sticky;
+            font-size: large;
+            top: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .img {
+            border: 3px solid #9b5de5;
+            box-shadow: 0 0 20px rgba(155, 93, 229, 0.5);
+            border-radius: 200px;
+            height: 300px;
+            width: 300px;
+            margin-left: 40%;
+
+        }
+
+
+        button {
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            box-shadow: 0 0 15px rgba(236, 72, 153, 0.5);
+           
+            
+            transform: scale(1.1);
+            background: linear-gradient(to right, #f64f59, #c471ed);
+        }
+     
+
+
+        .about {
+            background-image: linear-gradient(to right, purple, blue);
+            width: 1000px;
+            height: 450px;
+            margin-left: 6%;
+            margin-right: 10%;
+
+            font-size: large;
+            word-spacing: 3px;
+            padding: 40px 50px 50px 50px;
+            border-radius: 20px;
+            line-height: 40px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #f9a8d4;
+        }
+
+        ul {
+            list-style-type: disc;
+            line-height: 20px;
+          
+            
+        }
+       ul li{
+           
+            height:20px;
+          
+            display: inline-block;
+            justify-content: space-between;
+            padding:20px;
+            background-color:rgba(202, 165, 237, 0.2) ;
+            border:0.7px white dashed;
+            border-radius: 3px;
+            margin: 10px;;
+
+            
+            
+
+
+        }
+
+        .other {
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.4), rgba(0, 0, 128, 0.4));
+            padding: 20px;
+            border-radius: 10px;
+            margin: 40px;
+        }
+
+        .other li {
+
+            transition: 0.3s;
+        }
+
+        .other li:hover {
+            background: rgb(238, 236, 236);
+            color:rgba(0, 0, 128, 0.4);
+            font-weight: bold;
+
+        }
+
+        .projects {
+            display: flex;
+            justify-content: space-between;
+            font-size: larger;
+
+            width: 80%;
+            margin-left: 10%;
+
+        }
+
+        .projects span {
+
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .projects span:hover {
+
+            box-shadow: 0 0 25px rgba(236, 72, 153, 0.4);
+        }
+
+        .other {
+            width: 800px;
+            line-height: 20px;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        .contact {
+            font-size: larger;
+            line-height: 40px;
+        }
+    </style>
+
+<body>
+    <header>
+        <div class="header">
+            <nav><span>Rashi</span></nav>
+            <nav>
+                <span><a href="#home">Home</a></span>
+                <span><a href="#about">About</a></span>
+                <span><a href="#projects">Projects</a></span>
+                <span><a href="#contact">Contact</a></span>
+            </nav>
+        </div>
+
+    </header>
+    <main id="home">
+        <div>
+            <span><br>
+                <h1>Hi , I am Rashi Tiwari</h1>
+            </span><br>
+            <span>A vibrant Web Developer building Creative experience</span><br>
+            <span><a href="#projects"><button
+                        style="background-image:linear-gradient(to right,rgb(193, 107, 170),purple,blue); color:white;">View
+                        projects</button></a><a href="#contact"><button
+                        style="background-color: grey; color:purple;">Contact me</button></a></span>
+        </div>
+
+        <div>
+            <img src="/pictures/image copy.png"
+                class="img">
+        </div>
+    </main>
+    <br>
+    <section>
+        <div class="about" id="about">
+            <h2>ABOUT ME<img src="https://i.pinimg.com/originals/e2/e1/bd/e2e1bd2e5c02d4d598a1abcf978789bd.gif"
+                    height="80px "></h2>
+            I an currently Pursuing a B.Tech degree from <strong>PW Institute of Innovation</strong> (PWIOI), where I am
+            building a strong foundation in engineering
+            and technology. I have a keen interest in<emp> Machine Learing</emp> and I am actively exploring its
+            concepts and
+            applications. Alongside this, I have a working knowledge of HTML and C programming, which helps me
+            understand both
+            the front-end structure of web development and fundamentals of low-level programming. I am eager to keep
+            learning
+            ,building projects and growing in field of technology.
+            <h2>Skills ✨</h2>
+            Web Development and basic HTML
+
+        </div>
+    </section>
+    <br><br>
+    <section id="projects">
+        <h2>
+            PROJECTS
+        </h2><br>
+        <div class="projects"><a href="https://rashitiwari423-lgtm.github.io/My-first-program/home.html"><span
+                    style=" background-color: blue; display: inline-block; height: 250px; width:250px; border-radius: 10px; align-items: center;">
+                    <h3>My Clothing Website 👗</h3> Made my first clothing website using HTML and CSS
+                </span></a>
+
+            <a href="https://rashitiwari423-lgtm.github.io/my-page/29_sep.html"><span
+                    style=" background-image: linear-gradient(to right,orangered,orange); display: inline-block; height: 250px; width:250px; border-radius: 10px; align-items: center;">
+                    <h3>Amazon Page <i class="bi bi-amazon" style="color:#0a0a0a;"></i></h3>Made my website using card
+                </span></a>
+            <a href=" https://rashitiwari423-lgtm.github.io/practice-programs/youtube.html"><span
+                    style="background-color: purple;display: inline-block;height:250px;width:250px;border-radius: 10px;align-items:center;">
+                    <h3>Youtube <i class="bi bi-youtube" style="color:red"></i></h3>Made PwIOI youtube
+                    page</a>
+        </div>
+        <div class="other">
+            <h3>My other projects ✨</h3>
+
+            <ul>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/image.html">
+                    <li>Landkit</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/30_sep.html">
+                    <li>Clothing</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/1_oct.html">
+                    <li>Clothing1</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/10_oct.html">
+                    <li>Table</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/1_oct1.html">
+                    <li>iframe</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/netflix.html"><br>
+                    <li>Netflix Website</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/scroll.html">
+                    <li>Scrollbar</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/new.html">
+                    <li>Made a shoe photocard</li>
+                </a>
+                <a href="https://rashitiwari423-lgtm.github.io/practice-programs/pagenation.html">
+                    <li>Used Hover</li>
+                </a>
+            </ul>
+
+        </div>
+
+
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <ol>
+            <li class="bi bi-envelope"><a href="mailto:rashi.tiwari.sot25@pwioi.com"> Mail :
+                    rashitiwari423@gmail.com</a></li>
+            <li class="bi bi-github"><a href="https://github.com/rashitiwari423-lgtm"> Github : rashitiwari423-lgtm</a>
+            </li>
+            <li class="bi bi-linkedin"><a href="https://www.linkedin.com/in/rashi-tiwari-bb4b86380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Linkedin</a></li>
+        </ol>
+    </section>
+
+
+
+</body>
+
+</html>
